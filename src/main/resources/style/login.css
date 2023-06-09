@@ -1,0 +1,6 @@
+#loginPane{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow(three-pass-box, grey, 20, 0.1, 0, 0);
+}

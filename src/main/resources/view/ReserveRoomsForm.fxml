@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="686.0" prefWidth="1090.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelmanagementsystem.controller.ReserveRoomsFxmlController">
+   <children>
+      <JFXTextField layoutX="73.0" layoutY="87.0" prefHeight="25.0" prefWidth="190.0" />
+      <Label layoutX="73.0" layoutY="60.0" text="Reservation No">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="245.0" text="From">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXTextField layoutX="532.0" layoutY="174.0" prefHeight="25.0" prefWidth="229.0" />
+      <Label layoutX="531.0" layoutY="143.0" text="Key Money" />
+      <JFXTextField layoutX="522.0" layoutY="86.0" prefHeight="27.0" prefWidth="235.0" />
+      <Label layoutX="539.0" layoutY="60.0" text="Student Name">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXComboBox layoutX="305.0" layoutY="87.0" prefHeight="20.0" prefWidth="157.0" />
+      <Label layoutX="305.0" layoutY="60.0" text="Student ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXComboBox layoutX="75.0" layoutY="174.0" prefHeight="17.0" prefWidth="172.0" />
+      <Label layoutX="73.0" layoutY="142.0" text="Room Type ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXComboBox layoutX="298.0" layoutY="174.0" prefHeight="17.0" prefWidth="172.0" />
+      <Label layoutX="305.0" layoutY="142.0" text="Room">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Separator layoutX="949.0" layoutY="245.0" orientation="VERTICAL" prefHeight="72.0" prefWidth="7.0" />
+      <JFXTextField layoutX="731.0" layoutY="257.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="765.0" layoutY="213.0" prefHeight="27.0" prefWidth="139.0" text="Paying Money">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="213.0" text="Date Period">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXDatePicker layoutX="163.0" layoutY="269.0" prefHeight="20.0" prefWidth="198.0" />
+      <Label layoutX="390.0" layoutY="245.0" text="To">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <JFXDatePicker layoutX="390.0" layoutY="269.0" prefHeight="25.0" prefWidth="190.0" />
+      <Label layoutX="472.0" layoutY="382.0" text="-">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <TableView layoutX="19.0" layoutY="343.0" prefHeight="325.0" prefWidth="1062.0">
+        <columns>
+          <TableColumn prefWidth="128.33334350585938" text="Student ID" />
+          <TableColumn minWidth="4.3333282470703125" prefWidth="190.99996948242188" text="Room T ID" />
+            <TableColumn minWidth="4.3333282470703125" prefWidth="150.0" text="Room" />
+            <TableColumn minWidth="4.3333282470703125" prefWidth="170.0" text="KeyMoney" />
+            <TableColumn minWidth="0.0" prefWidth="161.0" text="Paying amount" />
+            <TableColumn minWidth="4.3333282470703125" prefWidth="134.0" text="Date From" />
+            <TableColumn minWidth="4.3333282470703125" prefWidth="126.0" text="Date To" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnUpdate21" layoutX="735.0" layoutY="301.0" mnemonicParsing="false" onAction="#StudentUpdateOnAction" prefHeight="32.0" prefWidth="115.0" style="-fx-background-radius: 5; -fx-background-color: #3498db;" styleClass="button-one" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate11" layoutX="892.0" layoutY="301.0" mnemonicParsing="false" onAction="#StudentUpdateOnAction" prefHeight="32.0" prefWidth="95.0" style="-fx-background-radius: 5; -fx-background-color: #c23616;" styleClass="button-one" text="Register" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="67.0" layoutY="14.0" text="Reeserve Rooms">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

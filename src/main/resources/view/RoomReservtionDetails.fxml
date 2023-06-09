@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="686.0" prefWidth="1090.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.hostelmanagementsystem.controller.RoomReservtionDetailsController">
+   <children>
+      <Label layoutX="14.0" layoutY="25.0" text="Room Reservation Details">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="104.0" prefHeight="27.0" prefWidth="147.0" text="Reservtion Rooms">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView layoutX="67.0" layoutY="143.0" prefHeight="209.0" prefWidth="396.0">
+        <columns>
+          <TableColumn prefWidth="113.0" text="Room Id" />
+          <TableColumn prefWidth="156.0" text="Description" />
+            <TableColumn prefWidth="126.0" text="Type" />
+        </columns>
+      </TableView>
+      <TableView layoutX="68.0" layoutY="433.0" prefHeight="209.0" prefWidth="396.0">
+         <columns>
+            <TableColumn prefWidth="113.0" text="Room Id" />
+            <TableColumn prefWidth="156.0" text="Description" />
+            <TableColumn prefWidth="126.0" text="Type" />
+         </columns>
+      </TableView>
+      <Label layoutX="192.0" layoutY="392.0" prefHeight="27.0" prefWidth="147.0" text="Availlable Rooms">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="761.0" layoutY="108.0" text="Student Details ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="761.0" layoutY="396.0" text="Resevered Details ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5cbd0" height="209.0" layoutX="645.0" layoutY="143.0" stroke="BLACK" strokeType="INSIDE" width="333.0" />
+      <Label layoutX="666.0" layoutY="218.0" text="Student Name" />
+      <Label layoutX="666.0" layoutY="310.0" text="Contact NO" />
+      <Label layoutX="666.0" layoutY="266.0" text="Address" />
+      <Label layoutX="666.0" layoutY="171.0" text="Student Id" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c5cbd0" height="209.0" layoutX="645.0" layoutY="429.0" stroke="BLACK" strokeType="INSIDE" width="333.0" />
+      <Label layoutX="684.0" layoutY="470.0" text="Start Date" />
+      <Label layoutX="684.0" layoutY="525.0" text="End Date" />
+      <Label layoutX="680.0" layoutY="585.0" text="Key Money" />
+      <TextField layoutX="802.0" layoutY="167.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField layoutX="804.0" layoutY="521.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField layoutX="802.0" layoutY="262.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField layoutX="802.0" layoutY="214.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField layoutX="802.0" layoutY="306.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField layoutX="804.0" layoutY="581.0" prefHeight="25.0" prefWidth="156.0" />
+      <TextField layoutX="802.0" layoutY="466.0" prefHeight="25.0" prefWidth="156.0" />
+   </children>
+</AnchorPane>
